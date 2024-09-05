@@ -1,0 +1,20 @@
+.spinner {
+  text-align: center;
+}
+.spinner td {
+  padding: 50px;
+}
+.spinner img {
+  width: 40px;
+  height: 40px;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

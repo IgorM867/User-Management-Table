@@ -1,0 +1,22 @@
+table {
+  table-layout: fixed;
+  border: 1px solid #222222;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #222222;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+th {
+  color: #fff;
+}
+
+.error-message {
+  text-align: center;
+}
